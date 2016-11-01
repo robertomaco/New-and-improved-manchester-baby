@@ -12,6 +12,7 @@ int load();
 int counter;
 char fetched[17];
 char memory[32][32];
+char loadmem[32];
 
 int main(){
 
@@ -22,6 +23,10 @@ int main(){
 }
 //for loading binary into the memory
 int load(){
+	int line;
+
+	cout << "Enter the line which you would like to poke data into"
+	cin.getline();
 
 }
 
