@@ -74,3 +74,13 @@ char poke(char l[], char x[][32]){
 }
 
 
+
+/*I know c++ parameters are pointers and I'm having this problem where I can't change the value of a variable through parameters.
+
+It'll be easier to understand if I link it
+
+https://gist.github.com/maccamcmacca/cb3c8a6ea0c0da0b6eef4a2d2356d960
+
+This is what the compiler barfs at me
+
+https://gist.github.com/maccamcmacca/6fe1d462c60f163011b4bec00540ed3f*/
